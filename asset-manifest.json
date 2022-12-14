@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra42_whatches/static/css/main.cdbb0a16.css",
+    "main.js": "/ra42_whatches/static/js/main.c57b416f.js",
+    "static/js/787.2fa1318f.chunk.js": "/ra42_whatches/static/js/787.2fa1318f.chunk.js",
+    "index.html": "/ra42_whatches/index.html",
+    "main.cdbb0a16.css.map": "/ra42_whatches/static/css/main.cdbb0a16.css.map",
+    "main.c57b416f.js.map": "/ra42_whatches/static/js/main.c57b416f.js.map",
+    "787.2fa1318f.chunk.js.map": "/ra42_whatches/static/js/787.2fa1318f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdbb0a16.css",
+    "static/js/main.c57b416f.js"
+  ]
+}

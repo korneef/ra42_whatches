@@ -12,11 +12,11 @@
 
 .clock__delete-clock-button {
   position: absolute;
+  display: none;
   top:0;
   right: 0;
-  display: none;
-  width: 1em;
-  height: 1em;
+  width: 23px;
+  height: 23px;
   margin-top: 0.4em;
   background-color: #ff0000;
   color: #ffffff;

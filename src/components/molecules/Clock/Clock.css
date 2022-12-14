@@ -1,0 +1,94 @@
+.clock-container {
+  margin: 10px;
+  font-size: 230px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.clock-container:hover .clock__delete-clock-button {
+  display: inline;
+}
+
+.clock__delete-clock-button {
+  position: absolute;
+  top:0;
+  right: 0;
+  display: none;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.4em;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 0.1em;
+  border: none;
+  border-radius: 50%;
+}
+
+.clock__delete-clock-button::before {
+  position: absolute;
+  content: '\00D7';
+  top: -0.3em;
+  left: 0.2em;
+}
+
+.clock__delete-clock-button:hover, .clock__delete-clock-button:focus, .clock__delete-clock-button:active {
+  outline: none;
+}
+
+.clock__city-name {
+  text-align: center;
+  height: 1.5em;
+  max-width: 10em;
+  font-weight: 700;
+  font-size: 0.1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clock__time-of-day {
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 0.1em;
+  margin-left: -0.7em;
+  margin-top: 1.4em;
+}
+
+.clock {
+  box-shadow: inset 0 0 0 0.02em #000;
+  display: inline-block;
+  border-radius: 0.5em;
+  position: relative;
+  overflow: hidden;
+  height: 1em;
+  width: 1em;
+}
+.clock::after {
+  content: '';
+  background-color: #fff;
+  border-radius: 0.5em;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  position: absolute;
+  font-size: 0.01em;
+  display: block;
+  height: 1em;
+  width: 1em;
+  left: 50%;
+  top: 50%;
+}
+.clock__hand-container, .clock__hand, .clock__stroke {
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  font-size: inherit;
+  position: absolute;
+  display: block;
+  height: 1em;
+  width: 1em;
+  left: 50%;
+  top: 50%;
+}

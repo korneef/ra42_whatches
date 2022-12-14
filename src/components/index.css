@@ -1,0 +1,13 @@
+@import url('./atoms/Dial/Dial.css');
+@import url('./atoms/HandHour/HandHour.css');
+@import url('./atoms/HandMinute/HandMinute.css');
+@import url('./atoms/HandSecond/HandSecond.css');
+
+@import url('./molecules/Clock/Clock.css');
+@import url('./molecules/Control/ClockCreatePanel.css');
+
+
+@import url('./organisms/Whatch/Whatch.css');
+@import url('./organisms/ClocksContainer/ClockContainer.css');
+
+@import url('./pages/MainPage/MainPage.css');

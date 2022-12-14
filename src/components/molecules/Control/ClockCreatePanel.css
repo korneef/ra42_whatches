@@ -1,0 +1,72 @@
+.clock-create-panel__form {
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: #000000;
+  color: #aeacac;
+  text-align: center;
+}
+
+.clock-create-panel__form-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-element {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.clock-create-panel__form-city-name-label {
+  display: block;
+}
+
+.clock-create-panel__form-city-name-input {
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+
+.clock-create-panel__form-city-name-input:active, .clock-create-panel__form-city-name-input:focus {
+  border: none;
+  outline: none;
+}
+
+.clock-create-panel__form-button {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+
+.clock-create-panel__form-timezone-label {
+  display: block;
+}
+
+.clock-create-panel__form-timezone-input {
+  width: 90px;
+  border: none;
+}
+
+.clock-create-panel__form-timezone-input:active, .clock-create-panel__form-timezone-input:focus {
+  border: none;
+  outline: none;
+}
+
+.clock-create-panel__form-button {
+  margin-top: 20px;
+  padding: 5px 15px;
+  color: #404040;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.clock-create-panel__form-button:hover {
+  border: 1px solid black;
+  background-color: #000;
+  color: #fff
+}
+
+.clock-create-panel__form-button:focus, .clock-create-panel__form-button:active {
+  outline: none;
+  border: 1px solid black;
+}

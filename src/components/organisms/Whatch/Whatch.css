@@ -1,0 +1,41 @@
+@keyframes clock-hand-rotate--hour {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes clock-hand-rotate--minute {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes clock-hand-rotate--second {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.clock__hand--hour {
+  animation: clock-hand-rotate--hour 43200s linear infinite;
+}
+
+.clock__hand--minute {
+  animation: clock-hand-rotate--minute 3600s linear infinite;
+}
+
+.clock__hand--second {
+  animation: clock-hand-rotate--second 60s linear infinite;
+}

@@ -14,6 +14,8 @@
   height: 23px;
   min-height: 23px;
   max-height: 23px;
+  padding: 0;
+
 }
 
 .clock__delete-clock-button {
@@ -33,6 +35,7 @@
   font-size: 0.1em;
   border: none;
   border-radius: 50%;
+  padding: 0;
 }
 
 .clock__delete-clock-button::before {

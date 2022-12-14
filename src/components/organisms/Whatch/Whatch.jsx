@@ -19,7 +19,7 @@ export default function Whatch(props) {
     }
     setInterval(() => {
       setClock(() => JSON.parse(localStorage.getItem('clocks')).map((item) => new ClockData(item.city, item.timeZone)))
-    }, 5000)
+    }, 60000)
   }, [])
 
   useEffect(() => {

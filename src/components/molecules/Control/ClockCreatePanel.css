@@ -1,5 +1,4 @@
 .clock-create-panel__form {
-  margin-bottom: 100px;
   padding: 30px;
   background-color: #000000;
   color: #aeacac;
@@ -32,18 +31,11 @@
   outline: none;
 }
 
-.clock-create-panel__form-button {
-  border: 1px solid #000000;
-  background-color: #ffffff;
-}
-
-
 .clock-create-panel__form-timezone-label {
   display: block;
 }
 
 .clock-create-panel__form-timezone-input {
-  /* width: 90px; */
   border: none;
   width: 100%;
   text-align: center;

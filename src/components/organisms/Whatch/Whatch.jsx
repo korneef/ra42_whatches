@@ -18,6 +18,10 @@ export default function Whatch(props) {
     if (savedClocks !== null) {
       setClock(JSON.parse(savedClocks).map((item) => new ClockData(item.city, item.timeZone)))
     }
+    setInterval(() => {
+      setClock(JSON.parse(localStorage.getItem('clocks')).map((item) => new ClockData(item.city, item.timeZone)))
+      console.log('refresh')
+    }, 5000)
   }, [])
 
   useEffect(() => {
@@ -27,7 +31,7 @@ export default function Whatch(props) {
   const handleSubmit = (evt) => {
     evt.preventDefault()
     const city = evt.target[0].value;
-    const utc =     evt.target[1].value;
+    const utc = evt.target[1].value;
     setClock((clocks) => {
       return [...clocks, new ClockData(city, Number(utc))]
     })

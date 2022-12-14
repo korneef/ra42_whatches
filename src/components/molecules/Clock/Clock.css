@@ -7,7 +7,7 @@
 }
 
 .clock-container:hover .clock__delete-clock-button {
-  display: inline;
+  display: block;
 }
 
 .clock__delete-clock-button {

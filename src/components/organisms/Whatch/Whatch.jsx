@@ -8,19 +8,17 @@ export default function Whatch(props) {
     const savedClocks = JSON.parse(localStorage.getItem('clocks'));
     if (savedClocks === null || savedClocks.length === 0) {
       return createDefaultClock();
-
     } else {
       return savedClocks.map((item) => new ClockData(item.city, item.timeZone))
     }
   })
   useEffect(() => {
-    const savedClocks = localStorage.getItem('clocks')
+    const savedClocks = localStorage.getItem('clocks');
     if (savedClocks !== null) {
       setClock(JSON.parse(savedClocks).map((item) => new ClockData(item.city, item.timeZone)))
     }
     setInterval(() => {
-      setClock(JSON.parse(localStorage.getItem('clocks')).map((item) => new ClockData(item.city, item.timeZone)))
-      console.log('refresh')
+      setClock(() => JSON.parse(localStorage.getItem('clocks')).map((item) => new ClockData(item.city, item.timeZone)))
     }, 5000)
   }, [])
 

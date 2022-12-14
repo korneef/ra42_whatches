@@ -26,6 +26,12 @@
   border-radius: 50%;
 }
 
+@media (max-width: 1023px) {
+  .clock__delete-clock-button {
+    display: block;
+  }
+}
+
 .clock__delete-clock-button::before {
   position: absolute;
   content: '\00D7';

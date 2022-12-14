@@ -43,8 +43,10 @@
 }
 
 .clock-create-panel__form-timezone-input {
-  width: 90px;
+  /* width: 90px; */
   border: none;
+  width: 100%;
+  text-align: center;
 }
 
 .clock-create-panel__form-timezone-input:active, .clock-create-panel__form-timezone-input:focus {

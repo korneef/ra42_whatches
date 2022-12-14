@@ -9,7 +9,7 @@ export default function ClockCreatePanel({ handleSubmit }) {
         </div>
         <div className={`${className}-timezone form-element`}>
           <label className={`${className}-timezone-label`} htmlFor="city-time-zone-input">Временная зона UTC+</label>
-          <input className={`${className}-timezone-input`} type="number" name="city-time-zone-input" id="city-time-zone-input" min={-12} max={14} placeholder='-12...+14' required />
+          <input className={`${className}-timezone-input`} type="number" name="city-time-zone-input" id="city-time-zone-input" min={-12} max={14} placeholder='-12 ... +14' required />
         </div>
       </div>
       <button className={`${className}-button`} type="submit">Create new clock!</button>

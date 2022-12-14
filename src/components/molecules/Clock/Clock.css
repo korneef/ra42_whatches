@@ -8,6 +8,12 @@
 
 .clock-container:hover .clock__delete-clock-button {
   display: block;
+  width: 23px;
+  min-width: 23px;
+  max-width: 23px;
+  height: 23px;
+  min-height: 23px;
+  max-height: 23px;
 }
 
 .clock__delete-clock-button {
@@ -16,7 +22,11 @@
   top:0;
   right: 0;
   width: 23px;
+  min-width: 23px;
+  max-width: 23px;
   height: 23px;
+  min-height: 23px;
+  max-height: 23px;
   margin-top: 0.4em;
   background-color: #ff0000;
   color: #ffffff;
